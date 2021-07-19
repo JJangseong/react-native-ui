@@ -10,6 +10,7 @@ import {
 import {BlurView} from "@react-native-community/blur"
 
 import {SIZES, FONTS, icons, COLORS} from '../constants'
+import {Viewers} from "../components";
 
 const HEADER_HEIGHT = 350;
 
@@ -79,7 +80,7 @@ const RecipeCreatorCardDetail = ({selectedRecipe}) => {
                            height: 15,
                            tintColor: COLORS.lightGreen1
                        }}
-               />
+                />
             </TouchableOpacity>
         </View>
     )
@@ -195,6 +196,55 @@ const Recipe = ({navigation, route}) => {
                     paddingBottom: 10
                 }}
             >
+                <Animated.View
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        backgroundColor: COLORS.black,
+                        opacity: scrollY.interpolate({
+                            inputRange: [HEADER_HEIGHT - 100, HEADER_HEIGHT - 70],
+                            outputRange: [0, 1]
+                        })
+                    }}
+                />
+
+                <Animated.View
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        alignItems: 'center',
+                        justifyContent: 'flex-end',
+                        paddingBottom: 10,
+                        opacity: scrollY.interpolate({
+                            inputRange: [HEADER_HEIGHT - 100, HEADER_HEIGHT - 50],
+                            outputRange: [0, 1]
+                        }),
+                        transform: [
+                            {
+                                translateY: scrollY.interpolate({
+                                    inputRange: [HEADER_HEIGHT - 100, HEADER_HEIGHT - 50],
+                                    outputRange: [50, 0],
+                                    extrapolate: 'clamp'
+                                })
+                            }
+                        ]
+                    }}
+                >
+                    <Text
+                        style={{
+                            color: COLORS.lightGray2,
+                            ...FONTS.body4
+                        }}
+                    >Recipe By:</Text>
+                    <Text style={{color: COLORS.white2, ...FONTS.h3}}>{selectedRecipe?.author?.name}</Text>
+                </Animated.View>
+
                 <TouchableOpacity
                     style={{
                         alignItems: 'center',
@@ -214,8 +264,104 @@ const Recipe = ({navigation, route}) => {
                                height: 15,
                                tintColor: COLORS.lightGray
                            }}
-                   />
+                    />
                 </TouchableOpacity>
+                <TouchableOpacity
+                    style={{
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        height: 35,
+                        width: 35,
+                    }}
+                >
+                    <Image source={selectedRecipe?.isBookmark ? icons.bookmarkFilled : icons.bookmark}
+                           style={{
+                               width: 30,
+                               height: 30,
+                               tintColor: COLORS.darkGreen
+                           }}
+                    />
+                </TouchableOpacity>
+            </View>
+        )
+    }
+
+    function renderRecipeInfo() {
+        return (
+            <View
+                style={{
+                    flexDirection: 'row',
+                    height: 130,
+                    width: SIZES.width,
+                    paddingHorizontal: 30,
+                    paddingVertical: 20,
+                    alignItems: 'center'
+                }}
+            >
+                <View
+                    style={{
+                        flex: 1.5,
+                        justifyContent: 'center'
+                    }}
+                >
+                    <Text
+                        style={{
+                            ...FONTS.h2
+                        }}
+                    >{selectedRecipe?.name}</Text>
+
+                    <Text
+                        style={{
+                            marginTop: 5,
+                            color: COLORS.lightGray2,
+                            ...FONTS.body4
+                        }}
+                    >
+                        {selectedRecipe?.duration} |
+                        {selectedRecipe?.serving} Serving
+                    </Text>
+                </View>
+                <View
+                    style={{
+                        flex: 1,
+                        justifyContent: 'center'
+                    }}
+                >
+                    <Viewers
+                        viewersList={selectedRecipe?.viewers}
+                    />
+                </View>
+            </View>
+        )
+    }
+
+    function renderIngredientHeader() {
+        return (
+            <View
+                style={{
+                    flexDirection: 'row',
+                    paddingHorizontal: 30,
+                    marginTop: SIZES.radius,
+                    marginBottom: SIZES.padding
+                }}
+            >
+                <Text
+                    style={{
+                        flex: 1,
+                        ...FONTS.h3
+                    }}
+                >
+                    Ingredients
+                </Text>
+
+                <Text
+                    style={{
+                        color: COLORS.lightGray2,
+                            ...FONTS.body4
+                    }}
+                >
+                    {selectedRecipe?.ingredients.length} items
+                </Text>
             </View>
         )
     }
@@ -233,6 +379,8 @@ const Recipe = ({navigation, route}) => {
                                ListHeaderComponent={
                                    <View>
                                        {renderRecipeCardHeader()}
+                                       {renderRecipeInfo()}
+                                       {renderIngredientHeader()}
                                    </View>
                                }
                                scrollEventThrottle={16}
@@ -298,6 +446,13 @@ const Recipe = ({navigation, route}) => {
                                        </View>
                                    )
                                }}
+                               ListFooterComponent={
+                                   <View
+                                    style={{
+                                        marginBottom: 100
+                                    }}
+                                   />
+                               }
 
             />
 
