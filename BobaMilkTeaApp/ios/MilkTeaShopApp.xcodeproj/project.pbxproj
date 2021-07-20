@@ -12,16 +12,15 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		16298A0B5BF842E1A480D82D /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9880BA39CBB443192894605 /* Roboto-BlackItalic.ttf */; };
+		2AE717FE9E9D3E874A0DFD25 /* libPods-MilkTeaShopApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C49F3F5059B3DCDE866A3AA /* libPods-MilkTeaShopApp.a */; };
 		2E158F56DC1741D1B36668BC /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9DA1C7CE94CE2A7B5F568 /* Roboto-BoldItalic.ttf */; };
 		32F5193FCF4547F6ACA693DF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488D18CB6CC249E78B38D911 /* Roboto-Medium.ttf */; };
 		42A061BD66E8432094485583 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EE2A03B1D7E4D8388EB9953 /* Roboto-LightItalic.ttf */; };
-		48A1EE0627D8177DD2480C54 /* libPods-MilkTeaShopApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3382771847EE44C2F8F413C /* libPods-MilkTeaShopApp.a */; };
 		58E838D05BF142EFB634A1BD /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E269480B73A1476C98CC0FC5 /* RobotoCondensed-BoldItalic.ttf */; };
 		598285B60D8D426896578117 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C610A753DD44994939D899E /* Roboto-Italic.ttf */; };
 		5D02EA9C5B714B2C805B1CA3 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A41FF5F1F25C44FFB6421E2B /* RobotoCondensed-Light.ttf */; };
 		5F107D72F6DD4CF5B8BCC645 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E81C69851F674429B4F70D44 /* RobotoCondensed-Bold.ttf */; };
 		63299A7BE9F3499EA57C2FF0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A85F6182FC24608B5404ACE /* Roboto-ThinItalic.ttf */; };
-		6647899E04B78E4F01E018A0 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D20A6F5EC7960D2542EBF /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */; };
 		7E3728D559EF42DB941D7ABC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20A2F183B85247DCA57DC276 /* Roboto-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		85552AA083D841528C684C91 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF4D66679B584AC0BE14F044 /* Roboto-Black.ttf */; };
@@ -32,6 +31,7 @@
 		B54F45DCD2144C2DB8E1AB36 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 973C7F2CA89A4DF1A7461AE6 /* RobotoCondensed-LightItalic.ttf */; };
 		CCAFB9679B6B40E0811DE165 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F34DB6B024482C965DEA12 /* Roboto-Thin.ttf */; };
 		D50728D55D244BD6AEA43759 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62B85F6E72114D3A9E45E2A6 /* RobotoCondensed-Italic.ttf */; };
+		E7D3300FF2A501C636D6522C /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB1D58174657CA70DA949A7 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,32 +54,32 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MilkTeaShopApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MilkTeaShopApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MilkTeaShopApp/main.m; sourceTree = "<group>"; };
-		1D6B0AE87643C5E3FB401A31 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B66495E5C2C315A2F5B979E /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20A2F183B85247DCA57DC276 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3C49F3F5059B3DCDE866A3AA /* libPods-MilkTeaShopApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTeaShopApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		488D18CB6CC249E78B38D911 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		544AE6CD6A674B6D89E7B841 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		575D46798E71FBC256E7FC7A /* Pods-MilkTeaShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp.release.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp.release.xcconfig"; sourceTree = "<group>"; };
-		59E47AF7C377F3055C59842B /* Pods-MilkTeaShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp.debug.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp.debug.xcconfig"; sourceTree = "<group>"; };
+		56C9D12CC5CA0CBF10AED153 /* Pods-MilkTeaShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp.release.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp.release.xcconfig"; sourceTree = "<group>"; };
 		5CD9DA1C7CE94CE2A7B5F568 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5EE2A03B1D7E4D8388EB9953 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		62B85F6E72114D3A9E45E2A6 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
 		6A85F6182FC24608B5404ACE /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		6C610A753DD44994939D899E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		78161C1635DF4A17A200A961 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		7D2D20A6F5EC7960D2542EBF /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTeaShopApp-MilkTeaShopAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MilkTeaShopApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973C7F2CA89A4DF1A7461AE6 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		9DDF300948E2EB9B530C6F97 /* Pods-MilkTeaShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp.debug.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB1D58174657CA70DA949A7 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTeaShopApp-MilkTeaShopAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41FF5F1F25C44FFB6421E2B /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		C4EBEC97401E49C09F8A524C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		D0F34DB6B024482C965DEA12 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		D9880BA39CBB443192894605 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		DF4D66679B584AC0BE14F044 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		E269480B73A1476C98CC0FC5 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
-		E3382771847EE44C2F8F413C /* libPods-MilkTeaShopApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTeaShopApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F153B1A7F1423C9E70CA34 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		E7B5FD5C07A360F8D464BC44 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		E81C69851F674429B4F70D44 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F7CACFBB2105237340BC01C3 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6647899E04B78E4F01E018A0 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a in Frameworks */,
+				E7D3300FF2A501C636D6522C /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A1EE0627D8177DD2480C54 /* libPods-MilkTeaShopApp.a in Frameworks */,
+				2AE717FE9E9D3E874A0DFD25 /* libPods-MilkTeaShopApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				E3382771847EE44C2F8F413C /* libPods-MilkTeaShopApp.a */,
-				7D2D20A6F5EC7960D2542EBF /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */,
+				3C49F3F5059B3DCDE866A3AA /* libPods-MilkTeaShopApp.a */,
+				9FB1D58174657CA70DA949A7 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,10 +202,10 @@
 		C5B317F19D63711FEC58D527 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				59E47AF7C377F3055C59842B /* Pods-MilkTeaShopApp.debug.xcconfig */,
-				575D46798E71FBC256E7FC7A /* Pods-MilkTeaShopApp.release.xcconfig */,
-				1D6B0AE87643C5E3FB401A31 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */,
-				F7CACFBB2105237340BC01C3 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */,
+				9DDF300948E2EB9B530C6F97 /* Pods-MilkTeaShopApp.debug.xcconfig */,
+				56C9D12CC5CA0CBF10AED153 /* Pods-MilkTeaShopApp.release.xcconfig */,
+				1B66495E5C2C315A2F5B979E /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */,
+				E7B5FD5C07A360F8D464BC44 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -217,12 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MilkTeaShopAppTests" */;
 			buildPhases = (
-				CB0D69974A4E8502F749E1B6 /* [CP] Check Pods Manifest.lock */,
+				8C7A8D473319417E6311668D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				56A452B6AB7D8DA8FA54703D /* [CP] Embed Pods Frameworks */,
-				ED35D554FB63D97458A6CB05 /* [CP] Copy Pods Resources */,
+				F480B690014AEE2155E82BC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,14 +237,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MilkTeaShopApp" */;
 			buildPhases = (
-				BDF0118D0B37A0E0FB02EAF0 /* [CP] Check Pods Manifest.lock */,
+				254553A3777D443625ECBD68 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0C4558C0B3B2D8B710A92893 /* [CP] Embed Pods Frameworks */,
-				2E544A51F34F82368514F8B1 /* [CP] Copy Pods Resources */,
+				504871E9F208080ACF7CC2C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -344,58 +342,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0C4558C0B3B2D8B710A92893 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2E544A51F34F82368514F8B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56A452B6AB7D8DA8FA54703D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BDF0118D0B37A0E0FB02EAF0 /* [CP] Check Pods Manifest.lock */ = {
+		254553A3777D443625ECBD68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,7 +364,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB0D69974A4E8502F749E1B6 /* [CP] Check Pods Manifest.lock */ = {
+		504871E9F208080ACF7CC2C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7A8D473319417E6311668D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,7 +403,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ED35D554FB63D97458A6CB05 /* [CP] Copy Pods Resources */ = {
+		F480B690014AEE2155E82BC5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,7 +472,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D6B0AE87643C5E3FB401A31 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */;
+			baseConfigurationReference = 1B66495E5C2C315A2F5B979E /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -535,7 +499,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CACFBB2105237340BC01C3 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */;
+			baseConfigurationReference = E7B5FD5C07A360F8D464BC44 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -559,7 +523,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59E47AF7C377F3055C59842B /* Pods-MilkTeaShopApp.debug.xcconfig */;
+			baseConfigurationReference = 9DDF300948E2EB9B530C6F97 /* Pods-MilkTeaShopApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -586,7 +550,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575D46798E71FBC256E7FC7A /* Pods-MilkTeaShopApp.release.xcconfig */;
+			baseConfigurationReference = 56C9D12CC5CA0CBF10AED153 /* Pods-MilkTeaShopApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
