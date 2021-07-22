@@ -1,7 +1,7 @@
 import React from "react";
 import {
     Image,
-    Platform, TouchableOpacity, TouchableWithoutFeedback, View,
+    Platform, Text, TouchableOpacity, TouchableWithoutFeedback, View,
 } from "react-native";
 import { createBottomTabNavigator, BottomTabBar } from "@react-navigation/bottom-tabs"
 import Svg, {Path} from 'react-native-svg'
@@ -53,7 +53,7 @@ const CustomTabBarButton = ({containerStyle, isFloat, children, onPress}) => {
                     />
                 </Svg>
                 <TouchableOpacity
-                    stlye={{
+                    style={{
                         position: 'absolute',
                         top: -40,
                         alignItems: 'center',
@@ -103,7 +103,7 @@ const Tabs = () => {
                     elevation: 0,
                     backgroundColor: "transparent",
                     borderTopColor: "transparent",
-                    height: (Platform.OS == 'android') ? 60 : 80
+                    height: (Platform.OS === 'android') ? 60 : 80
                 }
             }}
             tabBar={(props) => (
@@ -174,7 +174,7 @@ const Tabs = () => {
                             style={{
                                 width: 35,
                                 height: 35,
-                                tintColor: COLORS.white
+                                tintColor: COLORS.white,
                             }}
                         />
                     ),
