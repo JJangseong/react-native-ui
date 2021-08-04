@@ -11,6 +11,39 @@ import {connect} from 'react-redux'
 import {HeaderBar} from "../components";
 
 const Rewards = ({navigation, appTheme}) => {
+    function renderRewardPointSection() {
+        return (
+            <View
+                sylte={{
+                    alignItems: 'center',
+                    marginVertical: SIZES.padding
+                }}
+            >
+               <Text
+                style={{
+                    color: COLORS.primary,
+                    ...FONTS.h1,
+                    fontSize:35
+                }}
+               >
+                   Rewards
+               </Text>
+
+                <Text
+                    style={{
+                        marginTop:10,
+                        color: appTheme.textColor,
+                        width: SIZES.width * 0.6,
+                        textAlign: 'center',
+                        ...FONTS.h3,
+                        lineHeight: 18
+                    }}
+                >
+                    You are 60 points away from your next reward
+                </Text>
+            </View>
+        )
+    }
     return (
         <View style={styles.container}>
             <HeaderBar/>
@@ -27,6 +60,7 @@ const Rewards = ({navigation, appTheme}) => {
                 showsVerticalScrollIndicator={false}
                 ListHeaderComponent={
                     <View>
+                        {renderRewardPointSection()}
                     </View>
                 }
                 renderItem={({item}) => {
